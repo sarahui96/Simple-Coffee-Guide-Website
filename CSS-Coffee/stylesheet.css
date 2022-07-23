@@ -1,0 +1,203 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4.375rem;
+  color: #614124;
+  margin: 50px auto 0 auto;
+  margin-bottom: 20px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.87rem;
+  font-weight: normal;
+  color: #614124;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #CC704B;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EBDABD 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #CC704B;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #593801;
+}
+/***********************Classes***********************/
+.top-container {
+  background-color: #E8C07D;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.intro-h2{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+.topbeans {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 250px;
+  top: 25px;
+}
+
+.bottombeans {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 270px;
+  bottom: 350px;
+}
+
+.coffee-splash{
+margin-top: 0;
+}
+
+.cof {
+  text-decoration: underline;
+}
+
+.coflink{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.cafemoji {
+  height: 300px;
+  width: 300px;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.cafe-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: #E8C07D;
+  padding: 50px 0 20px;
+}
+
+.beantypes {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.bType{
+  color:#CC704B;
+}
+
+.coffeetypes {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.beantypes-link {
+  clear: left;
+}
+
+.cofDesp{
+  margin:20px,auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #FCF3E4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #f0ac95;
+  background-image: -webkit-linear-gradient(top, #f0ac95, #CC704B);
+  background-image: -moz-linear-gradient(top, #f0ac95, #CC704B);
+  background-image: -ms-linear-gradient(top, #f0ac95, #CC704B);
+  background-image: -o-linear-gradient(top, #f0ac95, #CC704B);
+  background-image: linear-gradient(to bottom, #f0ac95, #CC704B);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.marbtn{
+  display:inline-block;
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.btn:hover {
+  background: #c6ebab;
+  background-image: -webkit-linear-gradient(top, #c6ebab, #9FC088);
+  background-image: -moz-linear-gradient(top, #c6ebab, #9FC088);
+  background-image: -ms-linear-gradient(top, #c6ebab, #9FC088);
+  background-image: -o-linear-gradient(top, #c6ebab, #9FC088);
+  background-image: linear-gradient(to bottom, #c6ebab, #9FC088);
+  text-decoration: none;
+}
+
+/* Coffee Proportion Page */
+.propBody{
+  background-color: #FCF3E4;
+}
+
+.propHeading{
+  font-weight: bold;
+  margin: 90px auto 60px;
+}
+table{
+  margin: 0 auto 0 auto;
+}
